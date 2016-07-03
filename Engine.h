@@ -12,7 +12,7 @@ public:
 	void run();
 	void close();
 	void draw();
-	
+
 private:
 	//Screen dimension constants
 	const int SCREEN_WIDTH = 640;
@@ -27,6 +27,5 @@ private:
 	SDL_Surface* gXOut = NULL;
 
 	SDL_Surface* temp = NULL;
-	
-};
 
+};

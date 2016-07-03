@@ -1,6 +1,5 @@
 #include "Engine.h"
-#include <stdio.h>
-#include <SDL2/SDL.h>
+
 
 
 
@@ -91,8 +90,8 @@ void Engine::run()
 			//Update the surface
 			SDL_UpdateWindowSurface(gWindow);
 
-			
-		
+
+
 	}
 }
 void Engine::close()

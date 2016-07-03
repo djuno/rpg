@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = main.cpp Engine.cpp
+OBJS = main.cpp Engine.cpp lua.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -9,7 +9,7 @@ CC = g++
 COMPILER_FLAGS = -w
 
 #LINKER_FLAGS specifies the libraries we're linking against
-LINKER_FLAGS = -lSDL2
+LINKER_FLAGS = -lSDL2 -llua5.2
 
 #OBJ_NAME specifies the name of our exectuable
 OBJ_NAME = test
