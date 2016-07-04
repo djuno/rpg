@@ -11,9 +11,9 @@ Engine engine;
 
 int main(int argc, char* args[])
 {
-	
-	
-	
+
+
+
 	if (!engine.init())
 	{
 		printf("Failed to initialize!\n");
@@ -28,11 +28,11 @@ int main(int argc, char* args[])
 		else
 		{
 			engine.run();
-			
+
 		}
 	}
 
-	//Free resources and close SDL
+	//shut engine down
 	engine.close();
 
 

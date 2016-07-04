@@ -83,7 +83,8 @@ void Engine::run()
 			}
 		}
 
-
+			Lua script;
+			script.Runfile("game.lua");
 			//Apply the image
 			SDL_BlitSurface(gXOut, NULL, gScreenSurface, NULL);
 
