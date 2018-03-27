@@ -3,18 +3,18 @@
 
 class Text
 {
-public:
+    public:
 
 
-void Printj();
-
-
-
+        void Printj();
 
 
 
-private:
-SDL_Surface* text_box = NULL;
+
+
+
+    private:
+        SDL_Surface* text_box = NULL;
 
 
 };

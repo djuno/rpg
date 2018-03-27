@@ -82,13 +82,14 @@ void Engine::run()
 				quit = true;
 			}
 		}
+		SDL_BlitSurface(gXOut,NULL, gScreenSurface,NULL);
 
-			Lua script;
+			/*Lua script;
 			script.Runfile("game.lua");
 			//Apply the image
 			SDL_BlitSurface(gXOut, NULL, gScreenSurface, NULL);
 
-			//Update the surface
+			//Update the surface8*/
 			SDL_UpdateWindowSurface(gWindow);
 
 
